@@ -9,4 +9,6 @@ frame.pack()
 
 canvas = tk.Canvas(frame, width=500, height=500, bg="white")
 canvas.pack()
+
+canvas.create_rectangle(10, 10, 100, 100, fill="black")
 window.mainloop()
