@@ -7,4 +7,6 @@ window.title("Demo")
 frame = tk.Frame(window)
 frame.pack()
 
+canvas = tk.Canvas(frame, width=500, height=500, bg="white")
+canvas.pack()
 window.mainloop()
